@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-image:url("bg.jpg");
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-image:url("bg1.jpg");
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #FFE4E1;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Empowering Women Through Education: Unlocking Their Potential</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Breaking Down Barriers</h2>
+      <h5>Jan 12, 2019</h5>
+      <img class="fakeimg" style="height:500px;" src="https://www.cumanagement.com/sites/default/files/2018-09/woman-hammer-barrier.jpg">
+      <p>Education is a fundamental right, yet millions of girls and women continue to face barriers that prevent them from accessing quality education. Social norms, cultural practices, poverty, early marriage, and lack of infrastructure are some of the obstacles that hinder women's education. We delve into these barriers, shedding light on their impact and discussing strategies to overcome them. Initiatives such as scholarships, girls' empowerment programs, and policy changes can make a significant difference in breaking down these barriers and ensuring equal educational opportunities for women.</p>
+    </div>
+    <div class="card">
+      <h2>Empowering Women</h2>
+      <h5>Dec 1, 2019</h5>
+      <img class="fakeimg" style="height:500px;" src="2.jpg">
+      <p>Education serves as a catalyst for women's empowerment, enabling them to lead independent, fulfilling lives. It equips them with knowledge, skills, and confidence to make informed decisions, pursue their dreams, and participate actively in society. By investing in women's education, we invest in their potential to become leaders, entrepreneurs, scientists, and agents of change. We explore inspiring stories of women who have shattered societal expectations through education and highlight the transformative power it has on their lives.</p>
+    </div>
+    <div class="card">
+        <h2>Economic Impact</h2>
+        <h5>Feb 9, 2020</h5>
+        <img class="fakeimg" style="height:500px;" src="3.jpg">
+        <p>The economic benefits of women's education are undeniable. Educated women are more likely to secure better job opportunities, earn higher incomes, and contribute to their families' well-being. Moreover, educated women invest a significant portion of their earnings back into their communities, leading to a multiplier effect that fuels economic growth. We examine case studies and research that demonstrate the positive correlation between women's education and economic development, emphasizing the importance of investing in women's education for a prosperous future.</p>
+      </div>
+      <div class="card">
+        <h2>Health and Well-being</h2>
+        <h5>Jul 7, 2021</h5>
+        <img class="fakeimg" style="height:500px;" src="4.jpg">
+        <p>Education also plays a critical role in improving women's health and well-being. Educated women are more likely to make informed decisions regarding their reproductive health, nutrition, and overall well-being. They are better equipped to understand and challenge harmful cultural practices, such as early marriage and gender-based violence. By promoting women's education, we pave the way for healthier and more resilient communities, breaking the cycle of poverty and inequality.</p>
+      </div>
+      <div class="card">
+        <h2>Advocacy and Policy Change</h2>
+        <h5>Oct 19, 2022</h5>
+        <img class="fakeimg" style="height:500px;" src="5.jpg">
+        <p>To achieve lasting change, advocacy and policy reforms are essential. We discuss the importance of advocating for women's education at all levels, from grassroots initiatives to global campaigns. By advocating for gender-responsive education policies, inclusive curriculum, and targeted investments, we can ensure that women's education remains a priority on the international development agenda. We also highlight successful examples of organizations, governments, and individuals working towards this cause and the impact of their efforts.</p>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img class="fakeimg" style="height:200px;" src="boy.jpg">
+      <p>chandra lahari</p></p>
+      <p>Andhra Pradesh.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <img class="fakeimg" src="11.jpg" style="height:200px;">Online Education for better future<br><br>
+      <img class="fakeimg" src="12.jpg" style="height:200px;">Social Media Impact on Children<br><br>
+      <img class="fakeimg" src="13.jpg" style="height:200px;">The Secrets of Nature
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>chandralaharibatthala@gmail.com</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Women's education is not just a matter of equality; it is a pathway to social progress, economic growth, and sustainable development. By investing in women's education, we invest in a brighter future for individuals, families, communities, and the world at large. Let us strive for a world where every girl and woman has the opportunity to unlock her potential through education, breaking down barriers and creating a more equitable and prosperous society for all.</h2>
+</div>
+
+</body>
+</html>
